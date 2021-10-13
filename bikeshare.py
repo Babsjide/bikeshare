@@ -8,7 +8,7 @@ CITY_DATA = { 'c': 'chicago.csv',
               'w': 'washington.csv' }
 
 
-def filters():
+def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -195,7 +195,7 @@ def user_stats(df):
 def raw_data(df):
     row = 0
     while True:
-        view_raw_data = input('\n Do you want to view 5 lines of output at a time?.\n1. Yes \n2. No\n3. Display the whole data.(Warning!!! This is a large data collection.)\n>>> ')
+        view_raw_data = input('\n Do you want to view 5 lines of output at a time?.\n1. Yes \n2. No\n3. Show all.(Warning!!! This is a large data collection.)\n>>> ')
         if view_raw_data.lower() == 'yes':
             
             print(tabulate(df.iloc[np.arange(0+row, row + 5)], headers = "keys"))
@@ -211,7 +211,7 @@ def raw_data(df):
     
 def main():
     while True:
-        city, month, day = filters()
+        city, month, day = get_filters()
         df = load_data(city, month, day)
         time_stats(df)
         station_stats(df)
