@@ -195,7 +195,7 @@ def user_stats(df):
 def raw_data(df):
     row = 0
     while True:
-        view_raw_data = input('\n Do you want to view 5 lines of output at a time?.\n1. Yes \n2. No\n3. Display the whole data.(Warning!!! This is a large data collection.)\n>>> ')
+        view_raw_data = input('\n Do you want to view 5 lines of output at a time?.\n1. Yes \n2. No\n3. Show all.(Warning!!! This is a large data collection.)\n>>> ')
         if view_raw_data.lower() == 'yes':
             
             print(tabulate(df.iloc[np.arange(0+row, row + 5)], headers = "keys"))
