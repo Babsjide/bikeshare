@@ -15,7 +15,10 @@ Here, we analyse various statistics such as:
 We also have the option of viewing the data table in chunks of five lines, or at once.
 
 ### Files used
-Include the files used
+* bikeshare.py
+* chicago.csv
+* washington.csv
+* new_your_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
