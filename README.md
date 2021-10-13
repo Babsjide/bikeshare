@@ -7,7 +7,12 @@ This project was created on 14th October, 2021
 Bikeshare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+In this project, we want to analyse the bikeshare data collected from three major cities; Chicago, Washington, and New York.
+Here, we analyse various statistics such as: 
+* most common travel time, most popular stations
+* total and averge travel duration and so on.  
+
+We also have the option of viewing the data table in chunks of five lines, or at once.
 
 ### Files used
 Include the files used
