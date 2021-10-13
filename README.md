@@ -21,5 +21,5 @@ We also have the option of viewing the data table in chunks of five lines, or at
 * new_your_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+[**Udacity**](https://github.com/udacity/pdsnd_github)
 
